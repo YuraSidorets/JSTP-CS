@@ -24,7 +24,6 @@ namespace Jstp.Rs {
 				return null; //throw new JSRSFormatException();
 			}
 		}
-
 		/// <summary>
 		/// Determines next token type and parses it.
 		/// </summary>
@@ -54,7 +53,6 @@ namespace Jstp.Rs {
 
 			return null;
 		}
-
 		/// <summary>
 		/// Parses data to number.
 		/// </summary>
@@ -80,7 +78,6 @@ namespace Jstp.Rs {
 			}
 			
 		}
-
 		/// <summary>
 		/// Searches for the last index of the number.
 		/// </summary>
@@ -97,7 +94,6 @@ namespace Jstp.Rs {
 			}
 			return lastIndex - 1;
 		}
-
 		/// <summary>
 		/// Parses data to string
 		/// </summary>
@@ -189,7 +185,6 @@ namespace Jstp.Rs {
 
 			return s.ToString();
 		}
-
 		/// <summary>
 		/// Parses data to object(Dictionary&lt;string, object&gt;).
 		/// </summary>
@@ -231,7 +226,6 @@ namespace Jstp.Rs {
 				}
 			}
 		}
-
 		/// <summary>
 		/// Parses data to key(string).
 		/// </summary>
@@ -266,7 +260,6 @@ namespace Jstp.Rs {
 				return null; // throw new JSRSFormatException();
 			}
 		}
-
 		/// <summary>
 		/// Checks next token without moving index(cursor).
 		/// </summary>
@@ -277,7 +270,6 @@ namespace Jstp.Rs {
 			int saveIndex = index;
 			return NextToken(data, ref saveIndex);
 		}
-
 		/// <summary>
 		/// Checks next token.
 		/// </summary>
@@ -331,7 +323,6 @@ namespace Jstp.Rs {
 
 			return Token.TNone;
 		}
-
 		/// <summary>
 		/// Checks whether token is 'false'.
 		/// </summary>
@@ -352,7 +343,6 @@ namespace Jstp.Rs {
 
 			return false;
 		}
-
 		/// <summary>
 		/// Checks whether next token is 'true'.
 		/// </summary>
@@ -372,7 +362,6 @@ namespace Jstp.Rs {
 
 			return false;
 		}
-
 		/// <summary>
 		/// Checks whether next token is 'null'
 		/// </summary>
@@ -392,7 +381,6 @@ namespace Jstp.Rs {
 
 			return false;
 		}
-
 		/// <summary>
 		/// Skips all whitespaces from index to next token.
 		/// </summary>

@@ -49,6 +49,7 @@
   <ItemGroup>
     <Compile Include="JSTP\Object Serialization\JSOS.cs" />
     <Compile Include="JSTP\Record Data\JSRD.cs" />
+    <Compile Include="JSTP\Record Data\Token.cs" />
     <Compile Include="JSTP\Record Metadata\JSRM.cs" />
     <Compile Include="JSTP\Record Serialization\JSRS.cs" />
     <Compile Include="JSTP\Record Serialization\Token.cs" />
